@@ -35,7 +35,7 @@ To contribute to the project, Please see <a href="https://github.com/tokotype/Pl
 
 ## Build
 
-Build the fonts with `gftools builder sources/builder.yaml` from the repository’s root folder
+Build the fonts with `gftools builder sources/config.yaml` from the repository’s root folder
 
 ## Test
 

@@ -13,17 +13,17 @@
   </axis>
  </axes>
  <sources>
-  <source stylename="Regular" name="ExtraBold" familyname="Plus Jakarta Sans" filename="masters/PlusJakartaSans-ExtraBold.ufo">
+  <source stylename="Regular" name="ExtraBold" familyname="Zenith Sans" filename="masters/ZenithSans-ExtraBold.ufo">
    <location>
     <dimension name="weight" xvalue="800"/>
    </location>
   </source>
-  <source stylename="Regular" name="ExtraLight" familyname="Plus Jakarta Sans" filename="masters/PlusJakartaSans-ExtraLight.ufo">
+  <source stylename="Regular" name="ExtraLight" familyname="Zenith Sans" filename="masters/ZenithSans-ExtraLight.ufo">
    <location>
     <dimension name="weight" xvalue="200"/>
    </location>
   </source>
-  <source stylename="Regular" name="Regular" familyname="Plus Jakarta Sans" filename="masters/PlusJakartaSans-Regular.ufo">
+  <source stylename="Regular" name="Regular" familyname="Zenith Sans" filename="masters/ZenithSans-Regular.ufo">
    <lib copy="1"/>
    <groups copy="1"/>
    <info copy="1"/>
@@ -140,42 +140,42 @@
   </dict>
  </lib>
  <instances>
-  <instance stylename="ExtraLight" name="ExtraLight" familyname="Plus Jakarta Sans" filename="instances/PlusJakartaSans-ExtraLight.ufo">
+  <instance stylename="ExtraLight" name="ExtraLight" familyname="Zenith Sans" filename="instances/ZenithSans-ExtraLight.ufo">
    <location>
     <dimension name="weight" xvalue="200"/>
    </location>
   </instance>
-  <instance stylename="Light" name="Light" familyname="Plus Jakarta Sans" filename="instances/PlusJakartaSans-Light.ufo">
+  <instance stylename="Light" name="Light" familyname="Zenith Sans" filename="instances/ZenithSans-Light.ufo">
    <location>
     <dimension name="weight" xvalue="300"/>
    </location>
   </instance>
-  <instance stylename="Regular" name="Regular" familyname="Plus Jakarta Sans" filename="instances/PlusJakartaSans-Regular.ufo">
+  <instance stylename="Regular" name="Regular" familyname="Zenith Sans" filename="instances/ZenithSans-Regular.ufo">
    <location>
     <dimension name="weight" xvalue="400"/>
    </location>
   </instance>
-  <instance stylename="Medium" name="Medium" familyname="Plus Jakarta Sans" filename="instances/PlusJakartaSans-Medium.ufo">
+  <instance stylename="Medium" name="Medium" familyname="Zenith Sans" filename="instances/ZenithSans-Medium.ufo">
    <location>
     <dimension name="weight" xvalue="500"/>
    </location>
   </instance>
-  <instance stylename="SemiBold" name="SemiBold" familyname="Plus Jakarta Sans" filename="instances/PlusJakartaSans-SemiBold.ufo">
+  <instance stylename="SemiBold" name="SemiBold" familyname="Zenith Sans" filename="instances/ZenithSans-SemiBold.ufo">
    <location>
     <dimension name="weight" xvalue="600"/>
    </location>
   </instance>
-  <instance stylename="Bold" name="Bold" familyname="Plus Jakarta Sans" filename="instances/PlusJakartaSans-Bold.ufo">
+  <instance stylename="Bold" name="Bold" familyname="Zenith Sans" filename="instances/ZenithSans-Bold.ufo">
    <location>
     <dimension name="weight" xvalue="700"/>
    </location>
   </instance>
-  <instance stylename="ExtraBold" name="ExtraBold" familyname="Plus Jakarta Sans" filename="instances/PlusJakartaSans-ExtraBold.ufo">
+  <instance stylename="ExtraBold" name="ExtraBold" familyname="Zenith Sans" filename="instances/ZenithSans-ExtraBold.ufo">
    <location>
     <dimension name="weight" xvalue="800"/>
    </location>
   </instance>
-  <instance stylename="Regular" name="Regular" familyname="Plus Jakarta Sans" filename="instances/PlusJakartaSans-Regular.ufo">
+  <instance stylename="Regular" name="Regular" familyname="Zenith Sans" filename="instances/ZenithSans-Regular.ufo">
    <location>
     <dimension name="weight" xvalue="200"/>
    </location>
