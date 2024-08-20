@@ -31,7 +31,6 @@ jobs:
           name: fonts
           path: fonts/*
   test:
-    name: Test fonts
     needs: build
     runs-on: ubuntu-latest
     steps:
