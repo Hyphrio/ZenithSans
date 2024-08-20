@@ -1,184 +1,225 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <designspace format="4.0">
- <axes>
-  <axis default="400" maximum="800" name="weight" minimum="200" tag="wght">
-   <labelname xml:lang="en">Weight</labelname>
-   <map output="200" input="200"/>
-   <map output="300" input="300"/>
-   <map output="400" input="400"/>
-   <map output="500" input="500"/>
-   <map output="600" input="600"/>
-   <map output="700" input="700"/>
-   <map output="800" input="800"/>
-  </axis>
- </axes>
- <sources>
-  <source stylename="Regular" name="ExtraBold" familyname="Zenith Sans" filename="masters/ZenithSans-ExtraBold.ufo">
-   <location>
-    <dimension name="weight" xvalue="800"/>
-   </location>
-  </source>
-  <source stylename="Regular" name="ExtraLight" familyname="Zenith Sans" filename="masters/ZenithSans-ExtraLight.ufo">
-   <location>
-    <dimension name="weight" xvalue="200"/>
-   </location>
-  </source>
-  <source stylename="Regular" name="Regular" familyname="Zenith Sans" filename="masters/ZenithSans-Regular.ufo">
-   <lib copy="1"/>
-   <groups copy="1"/>
-   <info copy="1"/>
-   <features copy="1"/>
-   <location>
-    <dimension name="weight" xvalue="400"/>
-   </location>
-  </source>
- </sources>
- <lib>
-  <dict>
-   <key>GSDimensionPlugin.Dimensions</key>
-   <dict>
-    <key>1C1CFC13-4213-4775-A214-C31251F9A91A</key>
+  <axes>
+    <axis tag="wght" name="weight" minimum="200" maximum="800" default="400">
+      <labelname xml:lang="en">Weight</labelname>
+      <map input="200" output="200"/>
+      <map input="300" output="300"/>
+      <map input="400" output="400"/>
+      <map input="500" output="500"/>
+      <map input="600" output="600"/>
+      <map input="700" output="700"/>
+      <map input="800" output="800"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="masters/ZenithSans-ExtraBold.ufo" name="ExtraBold" familyname="Zenith Sans" stylename="Regular">
+      <location>
+        <dimension name="weight" xvalue="800"/>
+      </location>
+    </source>
+    <source filename="masters/ZenithSans-ExtraLight.ufo" name="ExtraLight" familyname="Zenith Sans" stylename="Regular">
+      <location>
+        <dimension name="weight" xvalue="200"/>
+      </location>
+    </source>
+    <source filename="masters/ZenithSans-Regular.ufo" name="Regular" familyname="Zenith Sans" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="weight" xvalue="400"/>
+      </location>
+    </source>
+    <source filename="masters/ZenithSans-Regular.ufo" name="::fontra003-f16f938f" familyname="Zenith Sans" stylename="Regular#3" layer="Regular#3">
+      <location>
+        <dimension name="weight" xvalue="250"/>
+      </location>
+    </source>
+    <source filename="masters/ZenithSans-Regular.ufo" name="::fontra004-14213fff" familyname="Zenith Sans" stylename="Regular#4" layer="Regular#4">
+      <location>
+        <dimension name="weight" xvalue="282.33"/>
+      </location>
+    </source>
+    <source filename="masters/ZenithSans-Regular.ufo" name="::fontra005-6493d001" familyname="Zenith Sans" stylename="Regular#5" layer="Regular#5">
+      <location>
+        <dimension name="weight" xvalue="350"/>
+      </location>
+    </source>
+    <source filename="masters/ZenithSans-Regular.ufo" name="::fontra006-1261e2e1" familyname="Zenith Sans" stylename="Regular#4" layer="Regular#4#1">
+      <location>
+        <dimension name="weight" xvalue="300"/>
+      </location>
+    </source>
+    <source filename="masters/ZenithSans-Regular.ufo" name="::fontra007-a3949ecc" familyname="Zenith Sans" stylename="Regular#5" layer="Regular#5#1">
+      <location>
+        <dimension name="weight" xvalue="325"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="ExtraLight" familyname="Zenith Sans" stylename="ExtraLight" filename="instances/ZenithSans-ExtraLight.ufo">
+      <location>
+        <dimension name="weight" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Light" familyname="Zenith Sans" stylename="Light" filename="instances/ZenithSans-Light.ufo">
+      <location>
+        <dimension name="weight" xvalue="300"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Regular" familyname="Zenith Sans" stylename="Regular" filename="instances/ZenithSans-Regular.ufo">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Medium" familyname="Zenith Sans" stylename="Medium" filename="instances/ZenithSans-Medium.ufo">
+      <location>
+        <dimension name="weight" xvalue="500"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="SemiBold" familyname="Zenith Sans" stylename="SemiBold" filename="instances/ZenithSans-SemiBold.ufo">
+      <location>
+        <dimension name="weight" xvalue="600"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Bold" familyname="Zenith Sans" stylename="Bold" filename="instances/ZenithSans-Bold.ufo">
+      <location>
+        <dimension name="weight" xvalue="700"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="ExtraBold" familyname="Zenith Sans" stylename="ExtraBold" filename="instances/ZenithSans-ExtraBold.ufo">
+      <location>
+        <dimension name="weight" xvalue="800"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+    <instance name="Regular" familyname="Zenith Sans" stylename="Regular" filename="instances/ZenithSans-Regular.ufo">
+      <location>
+        <dimension name="weight" xvalue="200"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+  <lib>
     <dict>
-     <key>HH</key>
-     <integer>45</integer>
-     <key>HV</key>
-     <integer>50</integer>
-     <key>OH</key>
-     <integer>48</integer>
-     <key>OV</key>
-     <integer>50</integer>
-     <key>nV</key>
-     <integer>45</integer>
-     <key>nd</key>
-     <integer>40</integer>
-     <key>oH</key>
-     <integer>43</integer>
-     <key>oV</key>
-     <integer>48</integer>
-     <key>tH</key>
-     <integer>40</integer>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>1C1CFC13-4213-4775-A214-C31251F9A91A</key>
+        <dict>
+          <key>HH</key>
+          <integer>45</integer>
+          <key>HV</key>
+          <integer>50</integer>
+          <key>OH</key>
+          <integer>48</integer>
+          <key>OV</key>
+          <integer>50</integer>
+          <key>nV</key>
+          <integer>45</integer>
+          <key>nd</key>
+          <integer>40</integer>
+          <key>oH</key>
+          <integer>43</integer>
+          <key>oV</key>
+          <integer>48</integer>
+          <key>tH</key>
+          <integer>40</integer>
+        </dict>
+        <key>30C2FD74-1A74-41AC-9C29-B288AE1DBDD7</key>
+        <dict>
+          <key>HH</key>
+          <integer>75</integer>
+          <key>HV</key>
+          <integer>80</integer>
+          <key>OH</key>
+          <integer>75</integer>
+          <key>OV</key>
+          <integer>80</integer>
+          <key>nV</key>
+          <integer>75</integer>
+          <key>nd</key>
+          <integer>68</integer>
+          <key>oH</key>
+          <integer>75</integer>
+          <key>oV</key>
+          <integer>80</integer>
+          <key>tH</key>
+          <integer>75</integer>
+        </dict>
+        <key>9398AC28-6BE1-4A79-9C94-3CBC2F226CE7</key>
+        <dict>
+          <key>HH</key>
+          <integer>135</integer>
+          <key>HV</key>
+          <integer>155</integer>
+          <key>OH</key>
+          <integer>140</integer>
+          <key>OV</key>
+          <integer>155</integer>
+          <key>nV</key>
+          <integer>150</integer>
+          <key>nd</key>
+          <integer>118</integer>
+          <key>oH</key>
+          <integer>135</integer>
+          <key>oV</key>
+          <integer>155</integer>
+          <key>tH</key>
+          <integer>130</integer>
+        </dict>
+        <key>C1DB0BE6-5704-4A8C-8C00-D80E72C16D98</key>
+        <dict>
+          <key>HH</key>
+          <integer>45</integer>
+          <key>HV</key>
+          <integer>50</integer>
+          <key>OH</key>
+          <integer>48</integer>
+          <key>OV</key>
+          <integer>50</integer>
+          <key>nV</key>
+          <integer>45</integer>
+          <key>nd</key>
+          <integer>40</integer>
+          <key>oH</key>
+          <integer>43</integer>
+          <key>oV</key>
+          <integer>48</integer>
+          <key>tH</key>
+          <integer>40</integer>
+        </dict>
+      </dict>
+      <key>com.schriftgestaltung.font.Enforce Compatibility Check</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.font.Use Line Breaks</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.font.Write DisplayStrings</key>
+      <integer>1</integer>
+      <key>com.schriftgestaltung.font.gasp Table</key>
+      <dict>
+        <key>20</key>
+        <integer>7</integer>
+        <key>65535</key>
+        <integer>15</integer>
+        <key>8</key>
+        <integer>10</integer>
+      </dict>
     </dict>
-    <key>30C2FD74-1A74-41AC-9C29-B288AE1DBDD7</key>
-    <dict>
-     <key>HH</key>
-     <integer>75</integer>
-     <key>HV</key>
-     <integer>80</integer>
-     <key>OH</key>
-     <integer>75</integer>
-     <key>OV</key>
-     <integer>80</integer>
-     <key>nV</key>
-     <integer>75</integer>
-     <key>nd</key>
-     <integer>68</integer>
-     <key>oH</key>
-     <integer>75</integer>
-     <key>oV</key>
-     <integer>80</integer>
-     <key>tH</key>
-     <integer>75</integer>
-    </dict>
-    <key>9398AC28-6BE1-4A79-9C94-3CBC2F226CE7</key>
-    <dict>
-     <key>HH</key>
-     <integer>135</integer>
-     <key>HV</key>
-     <integer>155</integer>
-     <key>OH</key>
-     <integer>140</integer>
-     <key>OV</key>
-     <integer>155</integer>
-     <key>nV</key>
-     <integer>150</integer>
-     <key>nd</key>
-     <integer>118</integer>
-     <key>oH</key>
-     <integer>135</integer>
-     <key>oV</key>
-     <integer>155</integer>
-     <key>tH</key>
-     <integer>130</integer>
-    </dict>
-    <key>C1DB0BE6-5704-4A8C-8C00-D80E72C16D98</key>
-    <dict>
-     <key>HH</key>
-     <integer>45</integer>
-     <key>HV</key>
-     <integer>50</integer>
-     <key>OH</key>
-     <integer>48</integer>
-     <key>OV</key>
-     <integer>50</integer>
-     <key>nV</key>
-     <integer>45</integer>
-     <key>nd</key>
-     <integer>40</integer>
-     <key>oH</key>
-     <integer>43</integer>
-     <key>oV</key>
-     <integer>48</integer>
-     <key>tH</key>
-     <integer>40</integer>
-    </dict>
-   </dict>
-   <key>com.schriftgestaltung.font.Enforce Compatibility Check</key>
-   <integer>1</integer>
-   <key>com.schriftgestaltung.font.Use Line Breaks</key>
-   <integer>1</integer>
-   <key>com.schriftgestaltung.font.Write DisplayStrings</key>
-   <integer>1</integer>
-   <key>com.schriftgestaltung.font.gasp Table</key>
-   <dict>
-    <key>20</key>
-    <integer>7</integer>
-    <key>65535</key>
-    <integer>15</integer>
-    <key>8</key>
-    <integer>10</integer>
-   </dict>
-  </dict>
- </lib>
- <instances>
-  <instance stylename="ExtraLight" name="ExtraLight" familyname="Zenith Sans" filename="instances/ZenithSans-ExtraLight.ufo">
-   <location>
-    <dimension name="weight" xvalue="200"/>
-   </location>
-  </instance>
-  <instance stylename="Light" name="Light" familyname="Zenith Sans" filename="instances/ZenithSans-Light.ufo">
-   <location>
-    <dimension name="weight" xvalue="300"/>
-   </location>
-  </instance>
-  <instance stylename="Regular" name="Regular" familyname="Zenith Sans" filename="instances/ZenithSans-Regular.ufo">
-   <location>
-    <dimension name="weight" xvalue="400"/>
-   </location>
-  </instance>
-  <instance stylename="Medium" name="Medium" familyname="Zenith Sans" filename="instances/ZenithSans-Medium.ufo">
-   <location>
-    <dimension name="weight" xvalue="500"/>
-   </location>
-  </instance>
-  <instance stylename="SemiBold" name="SemiBold" familyname="Zenith Sans" filename="instances/ZenithSans-SemiBold.ufo">
-   <location>
-    <dimension name="weight" xvalue="600"/>
-   </location>
-  </instance>
-  <instance stylename="Bold" name="Bold" familyname="Zenith Sans" filename="instances/ZenithSans-Bold.ufo">
-   <location>
-    <dimension name="weight" xvalue="700"/>
-   </location>
-  </instance>
-  <instance stylename="ExtraBold" name="ExtraBold" familyname="Zenith Sans" filename="instances/ZenithSans-ExtraBold.ufo">
-   <location>
-    <dimension name="weight" xvalue="800"/>
-   </location>
-  </instance>
-  <instance stylename="Regular" name="Regular" familyname="Zenith Sans" filename="instances/ZenithSans-Regular.ufo">
-   <location>
-    <dimension name="weight" xvalue="200"/>
-   </location>
-  </instance>
- </instances>
+  </lib>
 </designspace>
