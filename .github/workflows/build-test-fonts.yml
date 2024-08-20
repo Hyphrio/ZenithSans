@@ -27,11 +27,11 @@ jobs:
     - name: Build fonts
       run: |
         gftools builder sources/config.yaml
-    - name: Test fonts
-      run: |
-        fontbakery check-googlefonts fonts/variable/*.ttf && fontbakery check-googlefonts fonts/ttf/*.ttf
     - name: Archive fonts
       uses: actions/upload-artifact@v4
       with:
           name: fonts
           path: fonts/*
+    - name: Test fonts
+      run: |
+        fontbakery check-googlefonts fonts/variable/*.ttf && fontbakery check-googlefonts fonts/ttf/*.ttf
