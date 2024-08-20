@@ -1,9 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="fi" format="2">
   <advance width="562"/>
   <unicode hex="FB01"/>
   <anchor x="304" y="0" name="caret_1"/>
   <outline>
+    <contour>
+      <point x="491" y="657" type="curve" smooth="yes"/>
+      <point x="491" y="669"/>
+      <point x="481" y="679"/>
+      <point x="469" y="679" type="curve" smooth="yes"/>
+      <point x="456" y="679"/>
+      <point x="446" y="669"/>
+      <point x="446" y="657" type="curve" smooth="yes"/>
+      <point x="446" y="644"/>
+      <point x="456" y="634"/>
+      <point x="469" y="634" type="curve" smooth="yes"/>
+      <point x="481" y="634"/>
+      <point x="491" y="644"/>
+    </contour>
     <component base="f.liga"/>
     <component base="idotless" xOffset="377"/>
   </outline>

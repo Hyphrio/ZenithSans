@@ -1,3 +1,20 @@
+# Zenith Sans
+
+Zenith Sans is an edit of [Plus Jakarta Sans](https://github.com/tokotype/PlusJakartaSans).
+
+## Modifications
+- "a" has been modified to have a straight terminal rather than curving up,
+- "i", "j", ".", ";" has been modified to use dots rather than squares,
+- "G" has been remapped to the ss01 variant (use ss05 to revert),
+- "J" has been remapped to ss03 variant (use ss06 to revert),
+- The terminal of "Q" has been shifted towards right,
+- "l" now has a tail (use ss07 to revert),
+- Serif-like I has been split off ss01 and can now be toggled independently (use ss08)
+
+The original description shall follow below.
+
+___
+
 # Plus Jakarta Sans
 
 ![/documentation/img/plusjakartasans.png](/documentation/img/plusjakartasans.png)

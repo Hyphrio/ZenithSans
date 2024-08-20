@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Q" format="2">
   <advance width="878"/>
   <unicode hex="0051"/>
@@ -34,10 +34,10 @@
       <point x="575" y="128"/>
     </contour>
     <contour>
-      <point x="760" y="-90" type="line"/>
-      <point x="535" y="298" type="line"/>
-      <point x="375" y="298" type="line"/>
-      <point x="597" y="-90" type="line"/>
+      <point x="834" y="-90" type="line"/>
+      <point x="581" y="298" type="line"/>
+      <point x="439" y="298" type="line"/>
+      <point x="689" y="-90" type="line"/>
     </contour>
   </outline>
 </glyph>

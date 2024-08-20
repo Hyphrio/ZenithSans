@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="i" format="2">
   <advance width="221"/>
   <unicode hex="0069"/>
@@ -11,10 +11,18 @@
       <point x="88" y="0" type="line"/>
     </contour>
     <contour>
-      <point x="133" y="635" type="line"/>
-      <point x="133" y="745" type="line"/>
-      <point x="88" y="745" type="line"/>
-      <point x="88" y="635" type="line"/>
+      <point x="133" y="656.5" type="curve" smooth="yes"/>
+      <point x="133" y="668.9264068705"/>
+      <point x="122.9264068705" y="679"/>
+      <point x="110.5" y="679" type="curve" smooth="yes"/>
+      <point x="98.0735931295" y="679"/>
+      <point x="88" y="668.9264068705"/>
+      <point x="88" y="656.5" type="curve" smooth="yes"/>
+      <point x="88" y="644.0735931295"/>
+      <point x="98.0735931295" y="634"/>
+      <point x="110.5" y="634" type="curve" smooth="yes"/>
+      <point x="122.9264068705" y="634"/>
+      <point x="133" y="644.0735931295"/>
     </contour>
   </outline>
 </glyph>

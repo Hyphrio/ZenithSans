@@ -1,9 +1,8 @@
 sources:
-  - PlusJakartaSans.glyphs
-  - PlusJakartaSans-Italic.glyphs
+  - DesignSpace-UFO/ZenithSans.designspace
 axisOrder:
   - wght
   - ital
 outputDir: "../fonts"
-familyName: "Plus Jakarta Sans"
-version: 2.071
+familyName: "Zenith Sans"
+version: 1.0
