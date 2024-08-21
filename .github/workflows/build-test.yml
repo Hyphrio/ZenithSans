@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  Build fonts:
+  Build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
@@ -33,8 +33,8 @@ jobs:
             fonts/*
             OFL.txt
             README.md
-  Run the Google Fonts test suite:
-    needs: build
+  Tests:
+    needs: Build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
