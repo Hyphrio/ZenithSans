@@ -1,5 +1,9 @@
 # Zenith Sans
 
+![/documentation/img/zenith.png](/documentation/img/zenithsans.png)
+
+![/documentation/img/zenith.png](/documentation/img/diffs.png)
+
 Zenith Sans is a font family largely based on
 [Plus Jakarta Sans](https://github.com/tokotype/PlusJakartaSans).
 
